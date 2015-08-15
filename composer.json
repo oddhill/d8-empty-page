@@ -1,0 +1,20 @@
+{
+  "name": "drupal/empty_page",
+  "description": "Allows you to create empty pages by defining paths.",
+  "type": "drupal-module",
+  "license": "MIT",
+  "homepage": "https://github.com/oddhill/d8-empty-page",
+  "authors": [
+    {
+      "name": "Christoffer Palm",
+      "email": "christoffer.palm@oddhill.se",
+      "homepage": "http://www.oddhill.se/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/oddhill/d8-empty-page/issues",
+    "source": "https://github.com/oddhill/d8-empty-page",
+    "docs": "https://github.com/oddhill/d8-empty-page"
+  }
+}
