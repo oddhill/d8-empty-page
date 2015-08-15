@@ -1,0 +1,5 @@
+empty_page.add:
+  route_name: empty_page.add
+  title: 'Add empty page'
+  appears_on:
+    - empty_page.list

@@ -1,0 +1,6 @@
+empty_page.list:
+  title: 'Empty page callbacks'
+  description: 'Manage empty page callbacks.'
+  route_name: empty_page.list
+  weight: 10
+  parent: system.admin_structure

@@ -1,0 +1,15 @@
+# Schema for the configuration files of the Empty page module.
+
+empty_page.callback.*:
+  type: config_entity
+  label: 'Empty Page'
+  mapping:
+    name:
+      type: string
+      label: 'ID'
+    title:
+      type: string
+      label: 'Title'
+    path:
+      type: string
+      label: 'Path'

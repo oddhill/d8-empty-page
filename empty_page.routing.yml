@@ -1,0 +1,39 @@
+# Display a list of all empty pages.
+empty_page.list:
+  path: '/admin/config/structure/empty_page'
+  defaults:
+    _entity_list: 'empty_page'
+    _title: 'Empty page callbacks'
+  requirements:
+    _permission: 'administer empty page callbacks'
+
+# Add an empty page.
+empty_page.add:
+  path: '/admin/config/structure/empty_page/add'
+  defaults:
+    _entity_form: 'empty_page.add'
+    _title: 'Add empty page callback'
+  requirements:
+    _permission: 'administer empty page callbacks'
+
+# Edit empty page.
+entity.empty_page.edit_form:
+  path: '/admin/config/structure/empty_page/{empty_page}'
+  defaults:
+    _entity_form: 'empty_page.edit'
+    _title: 'Edit empty page callback'
+  requirements:
+    _permission: 'administer empty page callbacks'
+
+# Remove empty page.
+entity.empty_page.delete_form:
+  path: '/admin/config/structure/empty_page/{empty_page}/delete'
+  defaults:
+    _entity_form: 'empty_page.delete'
+    _title: 'Delete empty page callback'
+  requirements:
+    _permission: 'administer empty page callbacks'
+
+# Dynamic routes added by the user.
+route_callbacks:
+  - '\Drupal\empty_page\Routing\CallbackRoutes::routes'

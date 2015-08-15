@@ -1,0 +1,4 @@
+services:
+  empty_page.manager:
+    class: Drupal\empty_page\EmptyPageManager
+    arguments: ['@router.route_provider', '@router.builder']

@@ -1,0 +1,5 @@
+name: Empty Page
+description: Allows you to create empty pages by defining routes.
+type: module
+core: 8.x
+configure: empty_page.list
